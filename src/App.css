@@ -1,38 +1,28 @@
 .App {
   text-align: center;
+  background-color: #eeeeee;
+  padding: 2rem 0;
+    background-image: url("assets/images/dollar.jpeg");
+    background-size: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: none!important;
+  box-shadow: 0 1px 4px 0 rgba(112, 114, 125, 0.2);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn.btn-primary {
+  background-color: #8A7769!important;
+  border-color: #8A7769!important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn.btn-primary:hover,.btn.btn-primary:active {
+  background-color: #564337!important;
+  border-color: #564337!important;
+}
+.btn.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgb(138 119 105 / 50%)!important;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
